@@ -1,6 +1,6 @@
 # Data-Analysis
 Internship
-We have done data cleaning and data preprocessing in a raw dataset named 'Customer Personality Analysis' obtained from kaggle.
+I have done data cleaning and data preprocessing in a raw dataset named 'Customer Personality Analysis' obtained from kaggle.
 There were 24 missing values in the income column which is replaced with the most frequent value using simple imputer function.
 Text data is standardized which means the text data is coverted into lowercase and spaces were removed using .str.lower() and .str.replace('_', '') and .str.strip() method.
 All the column names were also converted into lowercase and spaces were removed. This also comes under standardization of text.
